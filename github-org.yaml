@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: github-organizations
+  description: Configuration to load data from github teams
+spec:
+  type: github-org
+  targets:
+    - https://github.com/bthomas-jha-demo-org
