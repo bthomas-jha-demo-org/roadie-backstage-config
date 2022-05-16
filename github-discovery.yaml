@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: github-catalog-discovery
+  description: Configuration to load catalog files github teams
+spec:
+  type: github-discovery
+  targets:
+    - https://github.com/bthomas-jha-demo-org
