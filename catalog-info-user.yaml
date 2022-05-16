@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: bthomas-jha
+spec:
+  profile:
+    displayName: Binu Thomas
+    email: binu.thomas@banno.com
+    picture: https://avatars.dicebear.com/api/avataaars/my-username-before-at-symbol.svg
+  memberOf: [roadie-backstage-admin]
